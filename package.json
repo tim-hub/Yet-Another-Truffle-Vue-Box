@@ -1,13 +1,13 @@
 {
-  "name": "vue-box",
-  "version": "0.1.0",
+  "name": "Truffle Bulma Vue",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "author": "Stanislas Duprey",
+  "author": "Tim(github.com/tim-hub)",
   "license": "MIT",
   "dependencies": {
     "truffle-contract": "^3.0.3",
