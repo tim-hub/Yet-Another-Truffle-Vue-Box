@@ -1,12 +1,26 @@
 <template>
-  <div id="app">
-    <H1>Vue - box</H1>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <div id="app">
+        <H1>Vue - box</H1>
+        <div id="nav">
+          <router-link to="/">Home</router-link> |
+          <router-link to="/about">About</router-link>
+        </div>
+        <router-view/>
+      </div>
+      </div>
+  </section>
+  </body>
+</html>
 </template>
 
 <style lang="scss">
