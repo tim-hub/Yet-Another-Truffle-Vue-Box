@@ -3,8 +3,13 @@
 This is a truffle box which is based on [vue-box](https://truffleframework.com/boxes/vue-box)
 
 The main differences are,
+1. Change default ethereum client to Ganache
 1. Add bulma style library,
-2. Add vee-validator.
+2. Add vee-validator and using example.
+
+Vee-Validator and Bulma will save a lot of time during working on front-end.
+
+Ganache can help developers to view every transactions.
 
 ## Installation
 
@@ -12,6 +17,8 @@ The main differences are,
     ```javascript
     yarn install -g truffle
     ```
+
+    and Install [Ganache](https://github.com/trufflesuite/ganache/releases)
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
@@ -29,7 +36,6 @@ The main differences are,
     migrate
     ```
 
-If it's the first you attempt to compile and migrate a smart contract, I learned this here: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f
 
 5. Run the local server.
     ```javascript
