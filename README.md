@@ -5,7 +5,7 @@ This is a truffle box which is based on [vue-box](https://truffleframework.com/b
 The main differences are,
 1. Change default ethereum client to Ganache
 1. Add bulma style library,
-2. Add vee-validator and using example.
+2. Add vee-validator and usage example in vue component.
 
 Vee-Validator and Bulma will save a lot of time during working on front-end.
 
