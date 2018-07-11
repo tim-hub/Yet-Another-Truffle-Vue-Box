@@ -6,7 +6,16 @@
       <p v-if="!contractAddress">No contracts found</p>
       <p v-if="account">Current account: {{account}}</p>
       <p v-if="!account">No accounts found</p>
-      <input v-model="newValue" type="number">
+      <input
+        v-validate="'required'"
+        v-model="newValue"
+        type="number"
+        name="newValue">
+      <span
+        class="has-text-danger"
+        v-show="errors.has('newValue')">
+          {{ errors.first('newValue') }}
+      </span>
       <button @click="updateValue">Update value in the contract</button>
       <p v-if="currentNumber">Value read from the contract: {{currentNumber}}</p>
       <p v-if="!currentNumber">Value not set</p>
