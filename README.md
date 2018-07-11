@@ -1,6 +1,10 @@
-# Vue Truffle Box
+# Truffle Vue + Vee + Bluma
 
-This box comes with everything you need to start using smart contracts from a vue app.
+This is a truffle box which is based on [vue-box](https://truffleframework.com/boxes/vue-box)
+
+The main differences are,
+1. Add bulma style library,
+2. Add vee-validator.
 
 ## Installation
 
